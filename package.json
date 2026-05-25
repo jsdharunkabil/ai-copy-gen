@@ -3,40 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
-<<<<<<< HEAD
-    "autoprefixer": "10.5.0",
-=======
-    "autoprefixer": "^10.5.0",
->>>>>>> e0bf0fe3a2f0289ccd1902ea045db11d3bba8446
-    "framer-motion": "^12.40.0",
-    "lucide-react": "^1.16.0",
+    "framer-motion": "^12.10.0",
+    "lucide-react": "^0.513.0",
     "next": "16.2.6",
     "next-themes": "^0.4.6",
-    "openai": "^6.39.0",
-<<<<<<< HEAD
-    "postcss": "8.5.15",
-=======
-    "postcss": "^8.5.15",
->>>>>>> e0bf0fe3a2f0289ccd1902ea045db11d3bba8446
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "babel-plugin-react-compiler": "1.0.0",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.6",
-<<<<<<< HEAD
-    "tailwindcss": "3.4.19"
-=======
-    "tailwindcss": "^3.4.19"
->>>>>>> e0bf0fe3a2f0289ccd1902ea045db11d3bba8446
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "3.4.1"
   }
 }
